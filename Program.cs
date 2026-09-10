@@ -7,7 +7,7 @@
 
     if (!double.TryParse(Console.ReadLine(), out num1))
     {
-        Console.WriteLine("Invalid input!");
+        Console.WriteLine("Error: Please enter a valid number.");
         continue;
     }
 
@@ -16,7 +16,7 @@
 
     if (!double.TryParse(Console.ReadLine(), out num2))
     {
-        Console.WriteLine("Invalid input!");
+        Console.WriteLine("Error: Please enter a valid number.");
         continue;
     }
 
